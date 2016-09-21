@@ -19,6 +19,11 @@
           review="review.cyanogenmod.com" />
   <remote name="github"
           fetch="https://github.com/" />
+		  
+	<remote  name="Riad-MTK"
+           fetch="https://github.com/Riad-MTK"
+           revision="m6" />	  
+		  
   <remote name="linaro"
           fetch="http://android.git.linaro.org/git-ro/" />
   <remote name="samba"
@@ -28,7 +33,7 @@
           remote="cm" />
 
   <!-- Vanir -->
-  <project path="manifest" name="platform_manifest" remote="vanir" /> <!-- DO NOT MOVE - whine to Nuclearmistake -->
+  <project path="manifest" name="Riad-MTK/platform_manifest" remote="github" revision="m6" /> <!-- DO NOT MOVE - whine to Nuclearmistake -->
   <project path="build" name="build" remote="vanir" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
@@ -46,17 +51,17 @@
   <project path="external/jpeg" name="external_jpeg" groups="pdk" remote="vanir" />
   <project path="external/klogripper" name="external_klogripper" remote="vanir" />
   <project path="external/libavc" name="external_libavc" groups="pdk" remote="vanir" />
-  <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="vanir" />
+  <project path="external/sepolicy" name="Riad-MTK/android_external_sepolicy-mtk" remote="github" revision="m6" />
   <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="vanir" />
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="vanir" />
   <project path="external/toybox" name="external_toybox" groups="pdk" remote="vanir" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="vanir"/>
   <project path="external/zlib" name="external_zlib" groups="pdk" remote="vanir" />
-  <project path="frameworks/av" name="frameworks_av" remote="vanir" groups="pdk" />
-  <project path="frameworks/base" name="frameworks_base" remote="vanir" />
-  <project path="frameworks/native" name="frameworks_native" remote="vanir" groups="pdk" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="vanir" />
-  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="vanir" />
+  <project path="frameworks/av" name="Riad-MTK/Android_frameworks_av-mtk" remote="github" revision="m6" />
+  <project path="frameworks/base" name="Riad-MTK/Android_frameworks_base-mtk" remote="github" revision="m6" />
+  <project path="frameworks/native" name="Riad-MTK/Android_frameworks_native-mtk" remote="github" revision="m6" />
+  <project path="frameworks/opt/telephony" name="Riad-MTK/Android_frameworks_opt_telephony-mtk" remote="github" revision="m6" />
+  <project path="hardware/libhardware" name="Riad-MTK/Android_hardware_libhardware-mtk" remote="github" revision="m6" />
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" />
   <project path="hardware/samsung" name="hardware_samsung" remote="vanir" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
@@ -70,8 +75,8 @@
   <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="vanir" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="vanir" />
-  <project path="system/bt" name="system_bt" groups="pdk" remote="vanir"/>
-  <project path="system/core" name="system_core" groups="pdk" remote="vanir" />
+  <project path="system/bt" name="Riad-MTK/Android_system_bt-mtk" remote="github" revision="m6" />
+  <project path="system/core" name="Riad-MTK/Android_system_core-mtk" remote="github" revision="m6" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="vanir" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="vanir"  />
   <project path="system/extras/su" name="system_extras_su" remote="vanir" />
