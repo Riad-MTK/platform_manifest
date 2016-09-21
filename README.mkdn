@@ -1,4 +1,4 @@
-Team Vanir's repo
+ Vanir AOSP repo
 ===========
 
 This branch is for Vanir's M6 for Mediatek branch,  android-6.0.0 based ROM
@@ -14,7 +14,7 @@ Getting Started
 
 To initialize your local repository using my trees, use the following command:
 
-    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b m6
+    repo init -u git://github.com/Riad-MTK/platform_manifest.git -b m6
 
 
 
@@ -23,6 +23,20 @@ Then to sync up:
     repo sync -j8
     
 
+Credit
+===========
+
+#Vanir Aosp Team
+
+#Ferhung-mtk
+
+#Fire855
+
+#Riad Khan
+
+#Tirth Patel
+
+#TLS
 
 
 
